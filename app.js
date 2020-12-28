@@ -1,7 +1,7 @@
-document.getElementById('submit').addEventListener('submit', fizzBuzz);
+document.getElementById('submit').addEventListener('click', fizzBuzz);
 
 function fizzBuzz(){
-    for(let i = 1; n <= 100; n++) {
+    for(let i = 1; i <= 100; i++) {
         let output = "";
         if (i % 3 == 0) output += "Fizz";
         if (i % 5 == 0) output += "Buzz";
