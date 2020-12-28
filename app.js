@@ -1,0 +1,1 @@
+document.getElementById('submit').addEventListener('submit', fizzBuzz);
